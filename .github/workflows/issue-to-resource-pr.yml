@@ -1,0 +1,256 @@
+name: Create resource candidate PR
+
+on:
+  issue_comment:
+    types:
+      - created
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  create-candidate-pr:
+    if: >-
+      github.event.issue.pull_request == null &&
+      startsWith(github.event.comment.body, '/approve-resource')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create candidate resource pull request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueNumber = context.issue.number;
+            const actor = context.actor;
+
+            const permissionResponse =
+              await github.rest.repos.getCollaboratorPermissionLevel({
+                owner,
+                repo,
+                username: actor
+              });
+            const permission = permissionResponse.data.permission;
+            if (!["admin", "maintain", "write"].includes(permission)) {
+              core.setFailed("Only repository maintainers can approve resource issues.");
+              return;
+            }
+
+            const issueResponse = await github.rest.issues.get({
+              owner,
+              repo,
+              issue_number: issueNumber
+            });
+            const issue = issueResponse.data;
+            const body = issue.body ?? "";
+
+            function field(label) {
+              const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+              const pattern = new RegExp(
+                `### ${escaped}\\s*\\n\\s*([\\s\\S]*?)(?=\\n### |$)`
+              );
+              const match = body.match(pattern);
+              const value = match?.[1]?.trim();
+              return value && value !== "_No response_" ? value : "";
+            }
+
+            const categoryMap = {
+              "在线影视": "online_video",
+              "网盘资源搜索": "cloud_search",
+              "磁力链接搜索": "magnet_search",
+              "字幕": "subtitles",
+              "TVbox播放器": "player",
+              "订阅源": "subscription",
+              "会员拼团": "membership",
+              "其他": "other"
+            };
+
+            const name = field("资源名称");
+            const rawUrl = field("主页 URL");
+            const categoryLabel = field("分类");
+            const summary = field("资源简介");
+            const risks = field("已知风险");
+            const checkedAtInput = field("测试日期与地区");
+
+            if (!name || !rawUrl || !summary || !categoryMap[categoryLabel]) {
+              core.setFailed("Issue is missing a required resource form field.");
+              return;
+            }
+
+            let url;
+            try {
+              url = new URL(rawUrl);
+            } catch {
+              core.setFailed("The submitted homepage URL is invalid.");
+              return;
+            }
+            if (url.protocol !== "https:") {
+              core.setFailed("Only HTTPS resource URLs can be added.");
+              return;
+            }
+
+            const today = new Intl.DateTimeFormat("en-CA", {
+              timeZone: "Asia/Shanghai",
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit"
+            }).format(new Date());
+            const submittedDate = checkedAtInput.match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? today;
+            const baseId = url.hostname
+              .replace(/^www\./, "")
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .replace(/^-|-$/g, "");
+            const id = `${baseId || "resource"}-${issueNumber}`;
+            const branch = `candidate/issue-${issueNumber}-${id}`;
+
+            const repository = await github.rest.repos.get({ owner, repo });
+            const defaultBranch = repository.data.default_branch;
+            const existingPullRequests = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: "open",
+              head: `${owner}:${branch}`
+            });
+            if (existingPullRequests.data.length > 0) {
+              const pullRequest = existingPullRequests.data[0];
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: `候选资源 PR 已存在：#${pullRequest.number}。`
+              });
+              return;
+            }
+
+            const baseRef = await github.rest.git.getRef({
+              owner,
+              repo,
+              ref: `heads/${defaultBranch}`
+            });
+            const fileResponse = await github.rest.repos.getContent({
+              owner,
+              repo,
+              path: "resources/resources.json",
+              ref: defaultBranch
+            });
+            const file = fileResponse.data;
+            const resourcesData = JSON.parse(
+              Buffer.from(file.content, "base64").toString("utf8")
+            );
+
+            const normalizedUrl = url.toString();
+            const duplicate = resourcesData.resources.find(
+              (resource) =>
+                resource.id === id ||
+                new URL(resource.url).toString() === normalizedUrl
+            );
+            if (duplicate) {
+              core.setFailed(`Resource already exists as "${duplicate.id}".`);
+              return;
+            }
+
+            const resource = {
+              id,
+              name,
+              url: normalizedUrl,
+              category: categoryMap[categoryLabel],
+              summary,
+              tags: [],
+              access: {
+                requires_login: false,
+                free_level: "unknown",
+                regions: ["GLOBAL"]
+              },
+              scores: {
+                more: 3.0,
+                speed: 3.0,
+                clean: 3.0,
+                stable: 3.0,
+                ease: 3.0
+              },
+              risks: {
+                copyright: "unknown",
+                safety: "unknown",
+                privacy: "unknown",
+                payment: "unknown"
+              },
+              verification: {
+                status: "pending",
+                last_checked: submittedDate,
+                method: "manual",
+                notes: `候选资源，等待维护者验证。提交者风险说明：${risks || "未提供"}`
+              },
+              source: {
+                submitted_by: `@${issue.user.login}`,
+                added_at: today
+              },
+              featured: false
+            };
+
+            resourcesData.updated_at = today;
+            resourcesData.resources.push(resource);
+
+            let branchExists = false;
+            try {
+              await github.rest.git.getRef({
+                owner,
+                repo,
+                ref: `heads/${branch}`
+              });
+              branchExists = true;
+            } catch (error) {
+              if (error.status !== 404) {
+                throw error;
+              }
+            }
+
+            if (!branchExists) {
+              await github.rest.git.createRef({
+                owner,
+                repo,
+                ref: `refs/heads/${branch}`,
+                sha: baseRef.data.object.sha
+              });
+              await github.rest.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path: "resources/resources.json",
+                branch,
+                sha: file.sha,
+                message: `feat: add candidate resource ${name}`,
+                content: Buffer.from(
+                  `${JSON.stringify(resourcesData, null, 2)}\n`,
+                  "utf8"
+                ).toString("base64")
+              });
+            }
+
+            const pullRequest = await github.rest.pulls.create({
+              owner,
+              repo,
+              head: branch,
+              base: defaultBranch,
+              title: `[候选资源] ${name}`,
+              body: [
+                `由 #${issueNumber} 自动生成。`,
+                "",
+                "合并前请维护者完成以下检查：",
+                "- 验证主页与核心功能",
+                "- 调整评分、风险、地区与登录要求",
+                "- 决定是否将 `featured` 改为 `true`",
+                "- 确认描述中立且没有单部影视作品链接",
+                "",
+                `Closes #${issueNumber}`
+              ].join("\n"),
+              draft: true
+            });
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              body: `已创建候选资源草稿 PR：#${pullRequest.data.number}。资源尚未进入正式数据库，需维护者审核并合并。`
+            });

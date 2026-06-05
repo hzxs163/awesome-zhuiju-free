@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - "resources/resources.json"
+      - "scripts/sync-readme.mjs"
       - "scripts/check-availability.mjs"
       - ".github/workflows/check-availability.yml"
 
@@ -29,6 +30,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Sync featured resources to README
+        run: node scripts/sync-readme.mjs
       - name: Check featured resources
         run: node scripts/check-availability.mjs
       - name: Validate data

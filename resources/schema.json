@@ -86,6 +86,11 @@
           "type": "string",
           "minLength": 1
         },
+        "summary_short": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
         "tags": {
           "type": "array",
           "items": {
@@ -207,4 +212,3 @@
     }
   }
 }
-

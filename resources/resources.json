@@ -9,6 +9,7 @@
       "url": "https://tv.cctv.com/",
       "category": "online_video",
       "summary": "中央广播电视总台的节目与频道观看入口。",
+      "summary_short": "总台节目与频道观看入口",
       "tags": ["官方", "电视", "中文"],
       "access": {
         "requires_login": false,
@@ -46,6 +47,7 @@
       "url": "https://www.1905.com/vod/",
       "category": "online_video",
       "summary": "电影频道旗下的正版电影内容与影视资讯平台。",
+      "summary_short": "正版电影内容与影视资讯",
       "tags": ["官方", "电影", "中文"],
       "access": {
         "requires_login": false,
@@ -83,6 +85,7 @@
       "url": "https://archive.org/details/movies",
       "category": "online_video",
       "summary": "Internet Archive 的电影与视频资料集合，包含公共领域和用户上传内容。",
+      "summary_short": "公共领域与用户上传视频资料",
       "tags": ["公共领域", "历史影像", "英文"],
       "access": {
         "requires_login": false,
@@ -120,6 +123,7 @@
       "url": "https://www.opensubtitles.com/zh-CN",
       "category": "subtitles",
       "summary": "多语言社区字幕搜索与下载平台。",
+      "summary_short": "多语言社区字幕搜索与下载",
       "tags": ["字幕", "多语言", "社区上传"],
       "access": {
         "requires_login": false,
@@ -157,6 +161,7 @@
       "url": "https://kodi.tv/",
       "category": "player",
       "summary": "开源、跨平台的家庭媒体中心软件。",
+      "summary_short": "开源、跨平台家庭媒体中心",
       "tags": ["开源", "播放器", "跨平台"],
       "access": {
         "requires_login": false,
@@ -194,6 +199,7 @@
       "url": "https://github.com/iptv-org/iptv",
       "category": "subscription",
       "summary": "社区维护的公开 IPTV 频道集合与相关数据。",
+      "summary_short": "社区维护的公开 IPTV 频道集合",
       "tags": ["IPTV", "开源", "订阅源"],
       "access": {
         "requires_login": false,
@@ -231,6 +237,7 @@
       "url": "https://academictorrents.com/",
       "category": "magnet_search",
       "summary": "面向科研数据集与论文附件的 BitTorrent 分发平台。",
+      "summary_short": "面向科研数据集的 BitTorrent 分发平台",
       "tags": ["科研", "数据集", "BitTorrent"],
       "access": {
         "requires_login": false,

@@ -71,6 +71,10 @@ for (const [index, resource] of (resourcesData?.resources ?? []).entries()) {
   resourceIds.add(resource.id);
   if (resource.featured === true) {
     featuredResourceIds.add(resource.id);
+    check(
+      typeof resource.summary_short === "string" && resource.summary_short.length > 0,
+      `${path}.summary_short: required for featured resources`
+    );
   }
   check(typeof resource.name === "string" && resource.name.length > 0, `${path}.name: required`);
   check(typeof resource.url === "string" && resource.url.startsWith("https://"), `${path}.url: expected HTTPS URL`);

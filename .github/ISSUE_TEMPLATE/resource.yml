@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         感谢推荐。请如实说明资源体验和已知风险，不要提交单部影视作品链接。
+        提交 Issue 不会直接发布资源。维护者审核后会创建候选 PR，合并后才进入正式数据库与 README。
   - type: input
     id: name
     attributes:
