@@ -34,6 +34,23 @@
       },
       "result": "pending_review",
       "notes": "用户推荐：No影视，主打海外影视剧资源。已先按 4 星收录为精选，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+    },
+    {
+      "id": "verify-20260613-online-video-batch",
+      "resource_ids": [
+        "gaze-red",
+        "sotvla",
+        "xlys"
+      ],
+      "checked_at": "2026-06-13",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "user submitted"
+      },
+      "result": "pending_review",
+      "notes": "用户推荐：注视影视、搜TV啦、雪落影视，均归类为在线影视。注视影视提交说明为需梯子访问；三者后续需要补充访问速度、广告干扰、版权和安全风险验证。"
     }
   ]
 }

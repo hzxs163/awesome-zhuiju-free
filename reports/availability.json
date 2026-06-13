@@ -21,6 +21,39 @@
       "error": null
     },
     {
+      "resource_id": "gaze-red",
+      "url": "https://gaze.red/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:43:14.929Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
+    },
+    {
+      "resource_id": "sotvla",
+      "url": "https://www.sotvla.cc/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:43:14.929Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
+    },
+    {
+      "resource_id": "xlys",
+      "url": "https://xlys.me/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:43:14.929Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
+    },
+    {
       "resource_id": "opensubtitles",
       "url": "https://www.opensubtitles.com/zh-CN",
       "status": "restricted",

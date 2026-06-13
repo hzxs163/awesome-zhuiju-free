@@ -42,6 +42,120 @@
       "featured": true
     },
     {
+      "id": "gaze-red",
+      "name": "注视影视",
+      "url": "https://gaze.red/",
+      "category": "online_video",
+      "summary": "主打国内海外影视剧资源的在线影视站，访问可能需要代理网络。",
+      "summary_short": "国内海外影视剧资源，需梯子",
+      "tags": ["在线影视", "国内剧", "海外剧", "需梯子"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，主打国内海外影视剧资源；提交说明为需梯子访问，内容来源、版权状态与站点安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
+      },
+      "featured": true
+    },
+    {
+      "id": "sotvla",
+      "name": "搜TV啦",
+      "url": "https://www.sotvla.cc/",
+      "category": "online_video",
+      "summary": "主打国内海外高清影视剧资源的在线影视站。",
+      "summary_short": "国内海外高清影视剧资源",
+      "tags": ["在线影视", "高清影视", "国内剧", "海外剧"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.0,
+        "speed": 4.0,
+        "clean": 4.0,
+        "stable": 4.0,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，主打国内海外高清影视剧资源；内容来源、版权状态与站点安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
+      },
+      "featured": true
+    },
+    {
+      "id": "xlys",
+      "name": "雪落影视",
+      "url": "https://xlys.me/",
+      "category": "online_video",
+      "summary": "主打国内海外影视剧资源的在线影视站。",
+      "summary_short": "国内海外影视剧资源",
+      "tags": ["在线影视", "国内剧", "海外剧", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.0,
+        "speed": 4.0,
+        "clean": 4.0,
+        "stable": 4.0,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，主打国内海外影视剧资源；内容来源、版权状态与站点安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
+      },
+      "featured": true
+    },
+    {
       "id": "opensubtitles",
       "name": "OpenSubtitles",
       "url": "https://www.opensubtitles.com/zh-CN",

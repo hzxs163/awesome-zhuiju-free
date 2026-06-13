@@ -9,7 +9,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-6_个资源-0f766e?style=for-the-badge" alt="已收录 6 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-9_个资源-0f766e?style=for-the-badge" alt="已收录 9 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -39,7 +39,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-1-2563eb?style=flat-square" alt="在线影视"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-4-2563eb?style=flat-square" alt="在线影视"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-1-64748b?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力与-bt-搜索"><img src="https://img.shields.io/badge/磁力与_BT-1-7c3aed?style=flat-square" alt="磁力与 BT 搜索"></a>
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-1-d97706?style=flat-square" alt="字幕资源"></a>
@@ -73,11 +73,32 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
+      <td>国内海外影视剧资源，需梯子</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:gaze-red -->⚪&#8288;未&#8288;检测<!-- /availability:gaze-red --></td>
+      <td align="center"><!-- availability-date:gaze-red -->2026&#8209;06&#8209;13<!-- /availability-date:gaze-red --></td>
+    </tr>
+    <tr>
       <td><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
       <td>海外影视剧资源聚合站</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
       <td align="center"><!-- availability-date:no-video -->2026&#8209;06&#8209;13<!-- /availability-date:no-video --></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.sotvla.cc/" target="_blank" rel="noopener noreferrer">搜TV啦</a></td>
+      <td>国内海外高清影视剧资源</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:sotvla -->⚪&#8288;未&#8288;检测<!-- /availability:sotvla --></td>
+      <td align="center"><!-- availability-date:sotvla -->2026&#8209;06&#8209;13<!-- /availability-date:sotvla --></td>
+    </tr>
+    <tr>
+      <td><a href="https://xlys.me/" target="_blank" rel="noopener noreferrer">雪落影视</a></td>
+      <td>国内海外影视剧资源</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:xlys -->⚪&#8288;未&#8288;检测<!-- /availability:xlys --></td>
+      <td align="center"><!-- availability-date:xlys -->2026&#8209;06&#8209;13<!-- /availability-date:xlys --></td>
     </tr>
   </tbody>
 </table>
