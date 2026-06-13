@@ -122,28 +122,28 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
       <td><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
       <td>夸克百度网盘搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:kuakeso -->⚪&#8288;未&#8288;检测<!-- /availability:kuakeso --></td>
+      <td align="center" nowrap><!-- availability:kuakeso -->🟢&#8288;可&#8288;访问<!-- /availability:kuakeso --></td>
       <td align="center"><!-- availability-date:kuakeso -->2026&#8209;06&#8209;13<!-- /availability-date:kuakeso --></td>
     </tr>
     <tr>
       <td><a href="https://www.zhuiju.us/" target="_blank" rel="noopener noreferrer">追剧吧</a></td>
       <td>影视网盘资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:zhuiju-us -->⚪&#8288;未&#8288;检测<!-- /availability:zhuiju-us --></td>
+      <td align="center" nowrap><!-- availability:zhuiju-us -->🟢&#8288;可&#8288;访问<!-- /availability:zhuiju-us --></td>
       <td align="center"><!-- availability-date:zhuiju-us -->2026&#8209;06&#8209;13<!-- /availability-date:zhuiju-us --></td>
     </tr>
     <tr>
       <td><a href="https://www.gugeso.com/" target="_blank" rel="noopener noreferrer">谷哥搜</a></td>
       <td>支持9种网盘搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:gugeso -->⚪&#8288;未&#8288;检测<!-- /availability:gugeso --></td>
+      <td align="center" nowrap><!-- availability:gugeso -->🟢&#8288;可&#8288;访问<!-- /availability:gugeso --></td>
       <td align="center"><!-- availability-date:gugeso -->2026&#8209;06&#8209;13<!-- /availability-date:gugeso --></td>
     </tr>
     <tr>
       <td><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
       <td>夸克网盘资源搜索平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:kuake-so-1 -->🔴&#8288;无法&#8288;访问<!-- /availability:kuake-so-1 --></td>
+      <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
       <td align="center"><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;13<!-- /availability-date:kuake-so-1 --></td>
     </tr>
   </tbody>

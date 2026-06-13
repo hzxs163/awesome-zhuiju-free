@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-13T13:57:34.541Z",
+  "generated_at": "2026-06-13T14:02:51.753Z",
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,
@@ -15,8 +15,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.novipnoad.cc/",
-      "response_ms": 445,
-      "checked_at": "2026-06-13T13:57:22.507Z",
+      "response_ms": 709,
+      "checked_at": "2026-06-13T14:02:49.160Z",
       "attempts": 1,
       "error": null
     },
@@ -26,8 +26,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://gaze.red/",
-      "response_ms": 707,
-      "checked_at": "2026-06-13T13:57:22.550Z",
+      "response_ms": 730,
+      "checked_at": "2026-06-13T14:02:49.203Z",
       "attempts": 1,
       "error": null
     },
@@ -37,8 +37,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.sotvla.cc/",
-      "response_ms": 818,
-      "checked_at": "2026-06-13T13:57:22.551Z",
+      "response_ms": 917,
+      "checked_at": "2026-06-13T14:02:49.204Z",
       "attempts": 1,
       "error": null
     },
@@ -48,8 +48,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://v.xl01.eu.cc/",
-      "response_ms": 1076,
-      "checked_at": "2026-06-13T13:57:22.552Z",
+      "response_ms": 1900,
+      "checked_at": "2026-06-13T14:02:49.205Z",
       "attempts": 1,
       "error": null
     },
@@ -59,8 +59,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.opensubtitles.com/zh-CN",
-      "response_ms": 316,
-      "checked_at": "2026-06-13T13:57:22.952Z",
+      "response_ms": 145,
+      "checked_at": "2026-06-13T14:02:49.869Z",
       "attempts": 1,
       "error": null
     },
@@ -70,8 +70,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://kodi.tv/",
-      "response_ms": 36,
-      "checked_at": "2026-06-13T13:57:23.257Z",
+      "response_ms": 109,
+      "checked_at": "2026-06-13T14:02:49.933Z",
       "attempts": 1,
       "error": null
     },
@@ -81,8 +81,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://github.com/iptv-org/iptv",
-      "response_ms": 23,
-      "checked_at": "2026-06-13T13:57:23.268Z",
+      "response_ms": 710,
+      "checked_at": "2026-06-13T14:02:50.014Z",
       "attempts": 1,
       "error": null
     },
@@ -92,54 +92,54 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://academictorrents.com/",
-      "response_ms": 416,
-      "checked_at": "2026-06-13T13:57:23.291Z",
+      "response_ms": 504,
+      "checked_at": "2026-06-13T14:02:50.042Z",
       "attempts": 1,
       "error": null
     },
     {
       "resource_id": "kuake-so-1",
       "url": "https://www.kuake.so/",
-      "status": "unreachable",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": 11248,
-      "checked_at": "2026-06-13T13:57:23.293Z",
-      "attempts": 2,
-      "error": "fetch failed"
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.kuake.so/",
+      "response_ms": 1427,
+      "checked_at": "2026-06-13T14:02:50.122Z",
+      "attempts": 1,
+      "error": null
     },
     {
       "resource_id": "kuakeso",
       "url": "https://www.kuakeso.net/",
-      "status": "unknown",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": null,
-      "checked_at": "2026-06-13T13:48:12.229Z",
-      "attempts": 0,
-      "error": "waiting for next GitHub Actions availability check"
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.kuakeso.net/",
+      "response_ms": 1020,
+      "checked_at": "2026-06-13T14:02:50.546Z",
+      "attempts": 1,
+      "error": null
     },
     {
       "resource_id": "zhuiju-us",
       "url": "https://www.zhuiju.us/",
-      "status": "unknown",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": null,
-      "checked_at": "2026-06-13T13:48:12.229Z",
-      "attempts": 0,
-      "error": "waiting for next GitHub Actions availability check"
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.zhuiju.us/",
+      "response_ms": 961,
+      "checked_at": "2026-06-13T14:02:50.724Z",
+      "attempts": 1,
+      "error": null
     },
     {
       "resource_id": "gugeso",
       "url": "https://www.gugeso.com/",
-      "status": "unknown",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": null,
-      "checked_at": "2026-06-13T13:48:12.229Z",
-      "attempts": 0,
-      "error": "waiting for next GitHub Actions availability check"
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.gugeso.com/",
+      "response_ms": 648,
+      "checked_at": "2026-06-13T14:02:51.105Z",
+      "attempts": 1,
+      "error": null
     }
   ]
 }
