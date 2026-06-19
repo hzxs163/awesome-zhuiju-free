@@ -64,49 +64,49 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   <tbody>
     <tr>
       <td nowrap><a href="https://www.duonaovod.com" target="_blank" rel="noopener noreferrer">多瑙影视</a></td>
-      <td nowrap>海外华人在线影院，需梯子</td>
+      <td nowrap>海外华人在线影院（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:duonao-video -->🟢&#8288;可&#8288;访问<!-- /availability:duonao-video --></td>
       <td align="center" nowrap><!-- availability-date:duonao-video -->2026&#8209;06&#8209;19<!-- /availability-date:duonao-video --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">火车太堵</a></td>
-      <td nowrap>全网蓝光急速观影</td>
+      <td nowrap>全网蓝光急速观影（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:tdgo -->🟢&#8288;可&#8288;访问<!-- /availability:tdgo --></td>
       <td align="center" nowrap><!-- availability-date:tdgo -->2026&#8209;06&#8209;19<!-- /availability-date:tdgo --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://kuhh4jo.com" target="_blank" rel="noopener noreferrer">爱电影</a></td>
-      <td nowrap>最新热门电影/电视剧</td>
+      <td nowrap>最新热门电影/电视剧（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:ai-movie -->🟢&#8288;可&#8288;访问<!-- /availability:ai-movie --></td>
       <td align="center" nowrap><!-- availability-date:ai-movie -->2026&#8209;06&#8209;19<!-- /availability-date:ai-movie --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://jpyy2.com" target="_blank" rel="noopener noreferrer">金牌影视</a></td>
-      <td nowrap>全网VIP资源</td>
+      <td nowrap>全网VIP资源（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:jpyy -->🔴&#8288;无法&#8288;访问<!-- /availability:jpyy --></td>
       <td align="center" nowrap><!-- availability-date:jpyy -->2026&#8209;06&#8209;19<!-- /availability-date:jpyy --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.937tv.vip" target="_blank" rel="noopener noreferrer">937影视</a></td>
-      <td nowrap>看全网影视剧</td>
+      <td nowrap>看全网影视剧（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:tv-937 -->🟡&#8288;访问&#8288;受限<!-- /availability:tv-937 --></td>
       <td align="center" nowrap><!-- availability-date:tv-937 -->2026&#8209;06&#8209;19<!-- /availability-date:tv-937 --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://iyf.tv" target="_blank" rel="noopener noreferrer">爱壹帆</a></td>
-      <td nowrap>面向海外华人的影视站，需梯子</td>
+      <td nowrap>面向海外华人的影视站（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:iyf -->🟢&#8288;可&#8288;访问<!-- /availability:iyf --></td>
       <td align="center" nowrap><!-- availability-date:iyf -->2026&#8209;06&#8209;19<!-- /availability-date:iyf --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
-      <td nowrap>国内海外影视剧资源，需梯子</td>
+      <td nowrap>国内海外影视剧资源（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:gaze-red -->🟡&#8288;访问&#8288;受限<!-- /availability:gaze-red --></td>
       <td align="center" nowrap><!-- availability-date:gaze-red -->2026&#8209;06&#8209;19<!-- /availability-date:gaze-red --></td>
@@ -127,7 +127,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
     </tr>
     <tr>
       <td nowrap><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
-      <td nowrap>海外影视剧资源聚合站</td>
+      <td nowrap>海外影视剧资源聚合站（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
       <td align="center" nowrap><!-- availability-date:no-video -->2026&#8209;06&#8209;19<!-- /availability-date:no-video --></td>
@@ -141,7 +141,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
     </tr>
     <tr>
       <td nowrap><a href="https://xlys.me/" target="_blank" rel="noopener noreferrer">雪落影视</a></td>
-      <td nowrap>国内海外影视剧资源</td>
+      <td nowrap>国内海外影视剧资源（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xlys -->🟢&#8288;可&#8288;访问<!-- /availability:xlys --></td>
       <td align="center" nowrap><!-- availability-date:xlys -->2026&#8209;06&#8209;19<!-- /availability-date:xlys --></td>
@@ -178,11 +178,11 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
   </thead>
   <tbody>
     <tr>
-      <td nowrap><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
-      <td nowrap>夸克百度网盘搜索</td>
+      <td nowrap><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
+      <td nowrap>专注夸克网盘资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:kuakeso -->🟢&#8288;可&#8288;访问<!-- /availability:kuakeso --></td>
-      <td align="center" nowrap><!-- availability-date:kuakeso -->2026&#8209;06&#8209;19<!-- /availability-date:kuakeso --></td>
+      <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
+      <td align="center" nowrap><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;19<!-- /availability-date:kuake-so-1 --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.zhuiju.us/" target="_blank" rel="noopener noreferrer">追剧吧</a></td>
@@ -199,11 +199,11 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:gugeso -->2026&#8209;06&#8209;19<!-- /availability-date:gugeso --></td>
     </tr>
     <tr>
-      <td nowrap><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
-      <td nowrap>专注夸克网盘资源搜索</td>
+      <td nowrap><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
+      <td nowrap>夸克百度网盘搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
-      <td align="center" nowrap><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;19<!-- /availability-date:kuake-so-1 --></td>
+      <td align="center" nowrap><!-- availability:kuakeso -->🟢&#8288;可&#8288;访问<!-- /availability:kuakeso --></td>
+      <td align="center" nowrap><!-- availability-date:kuakeso -->2026&#8209;06&#8209;19<!-- /availability-date:kuakeso --></td>
     </tr>
   </tbody>
 </table>

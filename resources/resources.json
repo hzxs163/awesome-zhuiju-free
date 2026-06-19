@@ -9,7 +9,7 @@
       "url": "https://www.novipnoad.cc/",
       "category": "online_video",
       "summary": "主打海外影视剧资源的在线影视站。",
-      "summary_short": "海外影视剧资源聚合站",
+      "summary_short": "海外影视剧资源聚合站（需梯子）",
       "tags": ["在线影视", "海外剧", "中文"],
       "access": {
         "requires_login": false,
@@ -47,7 +47,7 @@
       "url": "https://gaze.red/",
       "category": "online_video",
       "summary": "主打国内海外影视剧资源的在线影视站，访问可能需要代理网络。",
-      "summary_short": "国内海外影视剧资源，需梯子",
+      "summary_short": "国内海外影视剧资源（需梯子）",
       "tags": ["在线影视", "国内剧", "海外剧", "需梯子"],
       "access": {
         "requires_login": false,
@@ -123,7 +123,7 @@
       "url": "https://xlys.me/",
       "category": "online_video",
       "summary": "主打国内海外影视剧资源的在线影视站。",
-      "summary_short": "国内海外影视剧资源",
+      "summary_short": "国内海外影视剧资源（需梯子）",
       "tags": ["在线影视", "国内剧", "海外剧", "中文"],
       "access": {
         "requires_login": false,
@@ -161,7 +161,7 @@
       "url": "https://www.duonaovod.com",
       "category": "online_video",
       "summary": "海外华人在线影院，访问可能需要代理网络。",
-      "summary_short": "海外华人在线影院，需梯子",
+      "summary_short": "海外华人在线影院（需梯子）",
       "tags": ["在线影视", "海外华人", "需梯子"],
       "access": {
         "requires_login": false,
@@ -237,7 +237,7 @@
       "url": "https://www.tdgo.shop",
       "category": "online_video",
       "summary": "全网蓝光急速观影。",
-      "summary_short": "全网蓝光急速观影",
+      "summary_short": "全网蓝光急速观影（需梯子）",
       "tags": ["在线影视", "蓝光", "中文"],
       "access": {
         "requires_login": false,
@@ -275,7 +275,7 @@
       "url": "https://kuhh4jo.com",
       "category": "online_video",
       "summary": "最新热门电影/电视剧。",
-      "summary_short": "最新热门电影/电视剧",
+      "summary_short": "最新热门电影/电视剧（需梯子）",
       "tags": ["在线影视", "电影", "电视剧"],
       "access": {
         "requires_login": false,
@@ -313,7 +313,7 @@
       "url": "https://jpyy2.com",
       "category": "online_video",
       "summary": "全网 VIP 资源。",
-      "summary_short": "全网VIP资源",
+      "summary_short": "全网VIP资源（需梯子）",
       "tags": ["在线影视", "VIP资源", "中文"],
       "access": {
         "requires_login": false,
@@ -351,7 +351,7 @@
       "url": "https://www.937tv.vip",
       "category": "online_video",
       "summary": "看全网影视剧。",
-      "summary_short": "看全网影视剧",
+      "summary_short": "看全网影视剧（需梯子）",
       "tags": ["在线影视", "影视剧", "中文"],
       "access": {
         "requires_login": false,
@@ -389,7 +389,7 @@
       "url": "https://iyf.tv",
       "category": "online_video",
       "summary": "面向海外华人的影视站，访问可能需要代理网络。",
-      "summary_short": "面向海外华人的影视站，需梯子",
+      "summary_short": "面向海外华人的影视站（需梯子）",
       "tags": ["在线影视", "海外华人", "需梯子"],
       "access": {
         "requires_login": false,
@@ -799,7 +799,8 @@
         "submitted_by": "@laoma2053",
         "added_at": "2026-06-06"
       },
-      "featured": true
+      "featured": true,
+      "featured_order": 1
     },
     {
       "id": "kuakeso",
@@ -837,7 +838,8 @@
         "submitted_by": "maintainer",
         "added_at": "2026-06-13"
       },
-      "featured": true
+      "featured": true,
+      "featured_order": 4
     },
     {
       "id": "zhuiju-us",
@@ -875,7 +877,8 @@
         "submitted_by": "maintainer",
         "added_at": "2026-06-13"
       },
-      "featured": true
+      "featured": true,
+      "featured_order": 2
     },
     {
       "id": "gugeso",
@@ -913,7 +916,8 @@
         "submitted_by": "maintainer",
         "added_at": "2026-06-13"
       },
-      "featured": true
+      "featured": true,
+      "featured_order": 3
     }
   ]
 }
