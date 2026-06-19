@@ -1,14 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13",
+  "updated_at": "2026-06-19",
   "records": [
     {
       "id": "verify-20260606-initial",
       "resource_ids": [
         "opensubtitles",
         "kodi",
-        "iptv-org",
-        "academic-torrents"
+        "iptv-org"
       ],
       "checked_at": "2026-06-06",
       "checked_by": "maintainer",
@@ -69,6 +68,22 @@
       },
       "result": "pending_review",
       "notes": "用户推荐：夸克搜、追剧吧、谷哥搜，均归类为网盘资源搜索；同时将夸克点搜推荐指数调整为 5 星。后续需要补充访问速度、广告干扰、版权和链接安全验证。"
+    },
+    {
+      "id": "verify-20260619-magnet-search-batch",
+      "resource_ids": [
+        "meijufen",
+        "cilixiong"
+      ],
+      "checked_at": "2026-06-19",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录：美剧粉（https://www.mjf2020.com，测评备注：全部高清无广告）和磁力熊（https://www.cilixiong.org，测评备注：无删减、无广告），推荐指数均为 5 星。截图中的访问状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和链接安全验证。"
     }
   ]
 }

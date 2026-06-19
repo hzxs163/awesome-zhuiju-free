@@ -13,7 +13,7 @@ const timeZone = "Asia/Shanghai";
 const categories = [
   { id: "online_video", name: "在线影视", badge: "在线影视", color: "2563eb" },
   { id: "cloud_search", name: "网盘资源搜索", badge: "网盘搜索", color: "64748b" },
-  { id: "magnet_search", name: "磁力与 BT 搜索", badge: "磁力与_BT", color: "7c3aed" },
+  { id: "magnet_search", name: "磁力& BT", badge: "磁力%26_BT", color: "7c3aed" },
   { id: "subtitles", name: "字幕资源", badge: "字幕资源", color: "d97706" },
   { id: "player", name: "TVbox播放器", badge: "TVbox播放器", color: "059669" },
   { id: "subscription", name: "订阅源", badge: "订阅源", color: "db2777" },
@@ -29,7 +29,11 @@ function escapeHtml(value) {
 }
 
 function anchorFor(name) {
-  return name.toLowerCase().replaceAll(" ", "-");
+  return name
+    .toLowerCase()
+    .replaceAll("&", "")
+    .trim()
+    .replaceAll(/\s+/g, "-");
 }
 
 function escapeRegExp(value) {
@@ -55,6 +59,33 @@ function statusDisplay(status) {
     unreachable: "🔴&#8288;无法&#8288;访问",
     unknown: "⚪&#8288;未&#8288;检测"
   }[status] ?? "⚪&#8288;未&#8288;检测";
+}
+
+function verificationStatusDisplay(status) {
+  return {
+    pending: "⏳&#8288;待验证",
+    verified: "☑️&#8288;已验证",
+    recommended: "✅&#8288;推荐",
+    caution: "⚠️&#8288;谨慎",
+    temporarily_unavailable: "⛔&#8288;暂时失效",
+    removed: "🚫&#8288;已下架"
+  }[status] ?? "⏳&#8288;待验证";
+}
+
+function highestRiskLevel(resource) {
+  const riskRank = { low: 1, unknown: 2, medium: 3, high: 4 };
+  return Object.values(resource.risks).reduce((highest, risk) => {
+    return riskRank[risk] > riskRank[highest] ? risk : highest;
+  }, "low");
+}
+
+function riskDisplay(risk) {
+  return {
+    low: "低",
+    unknown: "未知",
+    medium: "中",
+    high: "高"
+  }[risk] ?? "未知";
 }
 
 function dateInTimeZone(timestamp) {
@@ -120,11 +151,15 @@ function tableFor(resources, availabilityById) {
       const availability = availabilityById.get(resource.id);
       const status = statusDisplay(availability?.status ?? "unknown");
       const checkedAt = dateInTimeZone(availability?.checked_at);
+      const verificationStatus = verificationStatusDisplay(resource.verification.status);
+      const risk = riskDisplay(highestRiskLevel(resource));
 
       return `    <tr>
       <td><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
       <td>${escapeHtml(shortSummary(resource))}</td>
       <td align="center" nowrap>${recommendationStars(resource)}</td>
+      <td align="center" nowrap>${verificationStatus}</td>
+      <td align="center" nowrap>${risk}</td>
       <td align="center" nowrap><!-- availability:${resource.id} -->${status}<!-- /availability:${resource.id} --></td>
       <td align="center"><!-- availability-date:${resource.id} -->${checkedAt}<!-- /availability-date:${resource.id} --></td>
     </tr>`;
@@ -134,11 +169,13 @@ function tableFor(resources, availabilityById) {
   return `<table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检&#8288;测</th>
+      <th width="16%">资源</th>
+      <th width="28%">简介</th>
+      <th width="14%">推荐指数</th>
+      <th width="12%">人工结论</th>
+      <th width="8%">风险</th>
+      <th width="12%">自动状态</th>
+      <th width="10%">检&#8288;测</th>
     </tr>
   </thead>
   <tbody>
@@ -194,7 +231,7 @@ ${badges}
 
 精选内容来自 [\`resources/resources.json\`](resources/resources.json)。状态由 GitHub Actions 每日自动检测：\`🟢 可访问\`、\`🟡 访问受限\`、\`🔴 无法访问\`、\`⚪ 未检测\`。检测结果仅代表 GitHub Actions 节点当时的网络情况。
 
-自动状态只判断主页是否响应，不替代人工的推荐、风险与体验评价。完整检测结果见 [\`reports/availability.json\`](reports/availability.json)。
+自动状态只判断主页是否响应，不替代人工结论、风险与体验评价。综合风险取版权、安全、隐私和支付四类风险中的最高等级。完整检测结果见 [\`reports/availability.json\`](reports/availability.json)。
 
 检测任务每天北京时间 09:00 左右运行；新增或修改资源后也会自动运行。你也可以在 [Check availability](https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml) 页面手动触发。
 

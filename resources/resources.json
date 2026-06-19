@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated_at": "2026-06-13",
+  "updated_at": "2026-06-19",
   "resources": [
     {
       "id": "no-video",
@@ -270,40 +270,78 @@
       "featured": true
     },
     {
-      "id": "academic-torrents",
-      "name": "Academic Torrents",
-      "url": "https://academictorrents.com/",
+      "id": "meijufen",
+      "name": "美剧粉",
+      "url": "https://www.mjf2020.com",
       "category": "magnet_search",
-      "summary": "面向科研数据集与论文附件的 BitTorrent 分发平台。",
-      "summary_short": "面向科研数据集的 BitTorrent 分发平台",
-      "tags": ["科研", "数据集", "BitTorrent"],
+      "summary": "全部高清无广告。",
+      "summary_short": "全部高清无广告",
+      "tags": ["磁力", "BT", "美剧", "高清"],
       "access": {
         "requires_login": false,
-        "free_level": "free",
+        "free_level": "unknown",
         "regions": ["GLOBAL"]
       },
       "scores": {
-        "more": 2.8,
-        "speed": 3.5,
-        "clean": 4.8,
-        "stable": 4.2,
-        "ease": 3.2
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
       },
       "risks": {
-        "copyright": "low",
+        "copyright": "high",
         "safety": "medium",
-        "privacy": "medium",
-        "payment": "low"
+        "privacy": "unknown",
+        "payment": "unknown"
       },
       "verification": {
-        "status": "recommended",
-        "last_checked": "2026-06-06",
+        "status": "caution",
+        "last_checked": "2026-06-19",
         "method": "manual",
-        "notes": "站点可访问；使用 BitTorrent 时需了解网络隐私与所在地区规则。"
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为全部高清无广告；截图状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
       },
       "source": {
         "submitted_by": "maintainer",
-        "added_at": "2026-06-06"
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "cilixiong",
+      "name": "磁力熊",
+      "url": "https://www.cilixiong.org",
+      "category": "magnet_search",
+      "summary": "无删减、无广告。",
+      "summary_short": "无删减、无广告",
+      "tags": ["磁力", "BT", "高清"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为无删减、无广告；截图状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
       },
       "featured": true
     },

@@ -8,7 +8,7 @@
 | --- | --- |
 | `online_video` | 在线影视 |
 | `cloud_search` | 网盘资源搜索 |
-| `magnet_search` | 磁力链接搜索 |
+| `magnet_search` | 磁力& BT |
 | `subtitles` | 字幕站、字幕组与字幕工具 |
 | `player` | TVbox播放器与客户端 |
 | `subscription` | IPTV、广播与其他订阅源 |
