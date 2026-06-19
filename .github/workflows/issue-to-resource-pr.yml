@@ -89,6 +89,7 @@ jobs:
               "TVbox播放器": "player",
               "订阅源": "subscription",
               "会员拼团": "membership",
+              "开源项目": "open_source",
               "其他": "other"
             };
 

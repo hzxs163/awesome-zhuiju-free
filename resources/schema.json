@@ -80,6 +80,7 @@
             "player",
             "subscription",
             "membership",
+            "open_source",
             "other"
           ]
         },
@@ -212,6 +213,25 @@
         "featured_order": {
           "type": "integer",
           "minimum": 1
+        },
+        "github": {
+          "type": "object",
+          "required": ["full_name", "stars", "pushed_at"],
+          "additionalProperties": false,
+          "properties": {
+            "full_name": {
+              "type": "string",
+              "pattern": "^[^/]+/[^/]+$"
+            },
+            "stars": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "pushed_at": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
         }
       }
     }

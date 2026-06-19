@@ -129,7 +129,9 @@ function replaceMarker(readme, type, resourceId, value) {
 }
 
 const resourcesData = JSON.parse(await readFile(resourcesPath, "utf8"));
-const featuredResources = resourcesData.resources.filter((resource) => resource.featured);
+const featuredResources = resourcesData.resources.filter(
+  (resource) => resource.featured && resource.category !== "open_source"
+);
 const results = await mapConcurrent(featuredResources, concurrency, checkResource);
 const generatedAt = new Date().toISOString();
 const generatedDate = dateInTimeZone(new Date(generatedAt), timeZone);

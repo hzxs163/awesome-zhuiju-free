@@ -10,6 +10,7 @@ const categories = new Set([
   "player",
   "subscription",
   "membership",
+  "open_source",
   "other"
 ]);
 const statuses = new Set([
@@ -86,6 +87,14 @@ for (const [index, resource] of (resourcesData?.resources ?? []).entries()) {
   check(typeof resource.name === "string" && resource.name.length > 0, `${path}.name: required`);
   check(typeof resource.url === "string" && resource.url.startsWith("https://"), `${path}.url: expected HTTPS URL`);
   check(categories.has(resource.category), `${path}.category: unknown category "${resource.category}"`);
+  if (resource.category === "open_source") {
+    check(typeof resource.github?.full_name === "string" && resource.github.full_name.includes("/"), `${path}.github.full_name: required for open source resources`);
+    check(Number.isInteger(resource.github?.stars) && resource.github.stars >= 0, `${path}.github.stars: expected a non-negative integer`);
+    check(
+      typeof resource.github?.pushed_at === "string" && !Number.isNaN(Date.parse(resource.github.pushed_at)),
+      `${path}.github.pushed_at: expected ISO timestamp`
+    );
+  }
 
   for (const score of ["more", "speed", "clean", "stable", "ease"]) {
     checkScore(resource.scores?.[score], `${path}.scores.${score}`);
@@ -147,6 +156,10 @@ for (const [index, result] of (availabilityData?.results ?? []).entries()) {
 
 if (availabilityData?.generated_at !== null) {
   for (const resourceId of featuredResourceIds) {
+    const resource = resourcesData.resources.find((item) => item.id === resourceId);
+    if (resource?.category === "open_source") {
+      continue;
+    }
     check(
       availabilityResourceIds.has(resourceId),
       `availability.results: featured resource "${resourceId}" is missing`

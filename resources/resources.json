@@ -918,6 +918,314 @@
       },
       "featured": true,
       "featured_order": 3
+    },
+    {
+      "id": "moontvplus",
+      "name": "MoonTVPlus",
+      "url": "https://github.com/mtvpls/MoonTVPlus",
+      "category": "open_source",
+      "summary": "MoonTVPlus 是基于 MoonTV v100 二次开发的增强版影视聚合播放器。",
+      "summary_short": "MoonTV 增强版影视聚合播放器",
+      "tags": ["开源项目", "影视聚合", "播放器"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 1,
+      "github": {
+        "full_name": "mtvpls/MoonTVPlus",
+        "stars": 2532,
+        "pushed_at": "2026-06-15T15:42:40Z"
+      }
+    },
+    {
+      "id": "zyfun",
+      "name": "zyfun",
+      "url": "https://github.com/Hiram-Wong/zyfun",
+      "category": "open_source",
+      "summary": "zyfun 是跨平台桌面端视频资源播放器。",
+      "summary_short": "跨平台桌面端视频资源播放器",
+      "tags": ["开源项目", "视频播放器", "跨平台"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 2,
+      "github": {
+        "full_name": "Hiram-Wong/zyfun",
+        "stars": 8567,
+        "pushed_at": "2026-06-18T16:42:11Z"
+      }
+    },
+    {
+      "id": "iptv-api",
+      "name": "iptv-api",
+      "url": "https://github.com/Guovin/iptv-api",
+      "category": "open_source",
+      "summary": "iptv-api 是 IPTV 直播源自动更新平台，支持采集、筛选、测速和生成。",
+      "summary_short": "IPTV 直播源自动采集筛选更新平台",
+      "tags": ["开源项目", "IPTV", "直播源"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 3,
+      "github": {
+        "full_name": "Guovin/iptv-api",
+        "stars": 24262,
+        "pushed_at": "2026-05-16T03:37:49Z"
+      }
+    },
+    {
+      "id": "iptv-org-iptv",
+      "name": "iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "category": "open_source",
+      "summary": "iptv-org/iptv 收集全球公开可用的 IPTV 频道。",
+      "summary_short": "全球公开 IPTV 频道集合",
+      "tags": ["开源项目", "IPTV", "直播源"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 4,
+      "github": {
+        "full_name": "iptv-org/iptv",
+        "stars": 125682,
+        "pushed_at": "2026-06-19T00:48:10Z"
+      }
+    },
+    {
+      "id": "pansou",
+      "name": "pansou",
+      "url": "https://github.com/fish2018/pansou",
+      "category": "open_source",
+      "summary": "PanSou 是高性能网盘资源搜索 API 服务，支持 TG 频道和插件搜索。",
+      "summary_short": "高性能网盘资源搜索 API 服务",
+      "tags": ["开源项目", "网盘搜索", "API"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 5,
+      "github": {
+        "full_name": "fish2018/pansou",
+        "stars": 13567,
+        "pushed_at": "2026-06-14T14:06:26Z"
+      }
+    },
+    {
+      "id": "cloudsaver",
+      "name": "CloudSaver",
+      "url": "https://github.com/jiangrui1994/CloudSaver",
+      "category": "open_source",
+      "summary": "CloudSaver 是基于 Vue 3 与 Express 的网盘资源搜索与转存工具。",
+      "summary_short": "网盘资源搜索与转存工具",
+      "tags": ["开源项目", "网盘搜索", "转存"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 6,
+      "github": {
+        "full_name": "jiangrui1994/CloudSaver",
+        "stars": 8991,
+        "pushed_at": "2026-04-20T03:28:29Z"
+      }
+    },
+    {
+      "id": "quark-auto-save",
+      "name": "quark-auto-save",
+      "url": "https://github.com/Cp0204/quark-auto-save",
+      "category": "open_source",
+      "summary": "quark-auto-save 支持夸克网盘签到、自动转存、命名整理和推送提醒。",
+      "summary_short": "夸克网盘自动签到转存整理工具",
+      "tags": ["开源项目", "夸克网盘", "自动转存"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true,
+      "featured_order": 7,
+      "github": {
+        "full_name": "Cp0204/quark-auto-save",
+        "stars": 2872,
+        "pushed_at": "2026-05-14T12:32:13Z"
+      }
     }
   ]
 }

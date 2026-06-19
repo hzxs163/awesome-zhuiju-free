@@ -9,7 +9,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-24_个资源-0f766e?style=for-the-badge" alt="已收录 24 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-31_个资源-0f766e?style=for-the-badge" alt="已收录 31 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -36,6 +36,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   <a href="#tvbox播放器"><img src="https://img.shields.io/badge/TVbox播放器-1-059669?style=flat-square" alt="TVbox播放器"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
+  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-7-0f172a?style=flat-square" alt="开源项目"></a>
 </p>
 
 <details>
@@ -334,6 +335,65 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 ### 会员拼团
 
 _等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
+
+<p align="right"><a href="#精选资源">返回分类导航</a></p>
+
+### 开源项目
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%" nowrap>资源</th>
+      <th width="45%" nowrap>简介</th>
+      <th width="15%" nowrap>star数</th>
+      <th width="15%" nowrap>最近更新</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td nowrap><a href="https://github.com/mtvpls/MoonTVPlus" target="_blank" rel="noopener noreferrer">MoonTVPlus</a></td>
+      <td nowrap>MoonTV 增强版影视聚合播放器</td>
+      <td align="center" nowrap>2,532</td>
+      <td align="center" nowrap>2026-06-15</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/Hiram-Wong/zyfun" target="_blank" rel="noopener noreferrer">zyfun</a></td>
+      <td nowrap>跨平台桌面端视频资源播放器</td>
+      <td align="center" nowrap>8,567</td>
+      <td align="center" nowrap>2026-06-19</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/Guovin/iptv-api" target="_blank" rel="noopener noreferrer">iptv-api</a></td>
+      <td nowrap>IPTV 直播源自动采集筛选更新平台</td>
+      <td align="center" nowrap>24,262</td>
+      <td align="center" nowrap>2026-05-16</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">iptv</a></td>
+      <td nowrap>全球公开 IPTV 频道集合</td>
+      <td align="center" nowrap>125,682</td>
+      <td align="center" nowrap>2026-06-19</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/fish2018/pansou" target="_blank" rel="noopener noreferrer">pansou</a></td>
+      <td nowrap>高性能网盘资源搜索 API 服务</td>
+      <td align="center" nowrap>13,567</td>
+      <td align="center" nowrap>2026-06-14</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/jiangrui1994/CloudSaver" target="_blank" rel="noopener noreferrer">CloudSaver</a></td>
+      <td nowrap>网盘资源搜索与转存工具</td>
+      <td align="center" nowrap>8,991</td>
+      <td align="center" nowrap>2026-04-20</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/Cp0204/quark-auto-save" target="_blank" rel="noopener noreferrer">quark-auto-save</a></td>
+      <td nowrap>夸克网盘自动签到转存整理工具</td>
+      <td align="center" nowrap>2,872</td>
+      <td align="center" nowrap>2026-05-14</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 <!-- featured-resources:end -->

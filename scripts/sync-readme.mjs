@@ -18,7 +18,8 @@ const categories = [
   { id: "subtitles", name: "字幕资源", badge: "字幕资源", color: "d97706" },
   { id: "player", name: "TVbox播放器", badge: "TVbox播放器", color: "059669" },
   { id: "subscription", name: "订阅源", badge: "订阅源", color: "db2777" },
-  { id: "membership", name: "会员拼团", badge: "会员拼团", color: "64748b" }
+  { id: "membership", name: "会员拼团", badge: "会员拼团", color: "64748b" },
+  { id: "open_source", name: "开源项目", badge: "开源项目", color: "0f172a" }
 ];
 
 function escapeHtml(value) {
@@ -77,6 +78,10 @@ function dateInTimeZone(timestamp) {
     .reduce((result, part) => ({ ...result, [part.type]: part.value }), {});
 
   return `${parts.year}&#8209;${parts.month}&#8209;${parts.day}`;
+}
+
+function plainDateInTimeZone(timestamp) {
+  return dateInTimeZone(timestamp).replaceAll("&#8209;", "-");
 }
 
 function shortSummary(resource) {
@@ -152,6 +157,34 @@ ${rows}
 </table>`;
 }
 
+function openSourceTableFor(resources) {
+  const starFormatter = new Intl.NumberFormat("en-US");
+  const rows = resources
+    .map((resource) => {
+      return `    <tr>
+      <td nowrap><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
+      <td nowrap>${escapeHtml(shortSummary(resource))}</td>
+      <td align="center" nowrap>${escapeHtml(starFormatter.format(resource.github.stars))}</td>
+      <td align="center" nowrap>${escapeHtml(plainDateInTimeZone(resource.github.pushed_at))}</td>
+    </tr>`;
+    })
+    .join("\n");
+
+  return `<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%" nowrap>资源</th>
+      <th width="45%" nowrap>简介</th>
+      <th width="15%" nowrap>star数</th>
+      <th width="15%" nowrap>最近更新</th>
+    </tr>
+  </thead>
+  <tbody>
+${rows}
+  </tbody>
+</table>`;
+}
+
 function categorySection(category, resources, availabilityById) {
   const categoryResources = sortFeaturedResources(
     resources.filter((resource) => resource.category === category.id)
@@ -159,7 +192,10 @@ function categorySection(category, resources, availabilityById) {
   let content;
 
   if (categoryResources.length > 0) {
-    content = tableFor(categoryResources, availabilityById);
+    content =
+      category.id === "open_source"
+        ? openSourceTableFor(categoryResources)
+        : tableFor(categoryResources, availabilityById);
   } else {
     content =
       "_等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_";
