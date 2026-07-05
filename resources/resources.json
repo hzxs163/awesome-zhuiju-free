@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated_at": "2026-07-04",
+  "updated_at": "2026-07-05",
   "resources": [
     {
       "id": "no-video",
@@ -236,8 +236,8 @@
       "name": "白嫖者联盟",
       "url": "https://www.tdgo.shop",
       "category": "online_video",
-      "summary": "热门热播剧，页面无广告，访问速度快。",
-      "summary_short": "热门热播剧，无广告速度快",
+      "summary": "热门热播剧，页面无广告，访问速度快（需梯子）。",
+      "summary_short": "热门热播剧，无广告速度快（需梯子）",
       "tags": ["在线影视", "热播剧", "无广告"],
       "access": {
         "requires_login": false,
@@ -261,7 +261,7 @@
         "status": "caution",
         "last_checked": "2026-07-04",
         "method": "manual",
-        "notes": "根据新截图更新：同一网址原收录为火车太堵，现按截图展示名调整为白嫖者联盟；推荐指数 5 星，测评备注为热门热播剧，无广告速度快；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+        "notes": "根据新截图更新：同一网址原收录为火车太堵，现按截图展示名调整为白嫖者联盟；推荐指数 5 星，测评备注为热门热播剧，无广告速度快（需梯子）；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
       },
       "source": {
         "submitted_by": "maintainer",
@@ -274,8 +274,8 @@
       "name": "蛋蛋魔法",
       "url": "https://ddmf.net",
       "category": "online_video",
-      "summary": "国内外热播剧，有福利伦理片。",
-      "summary_short": "国内外热播剧，有福利伦理片",
+      "summary": "国内外热播剧，有福利伦理片（需梯子）。",
+      "summary_short": "国内外热播剧，有福利伦理片（需梯子）",
       "tags": ["在线影视", "热播剧", "中文"],
       "access": {
         "requires_login": false,
@@ -299,7 +299,7 @@
         "status": "caution",
         "last_checked": "2026-07-04",
         "method": "manual",
-        "notes": "根据用户补充更新简介：国内外热播剧，有福利伦理片；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+        "notes": "根据用户补充更新简介：国内外热播剧，有福利伦理片（需梯子）；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
       },
       "source": {
         "submitted_by": "maintainer",
@@ -730,8 +730,8 @@
       "name": "奈飞工厂",
       "url": "https://www.netflixgc.com",
       "category": "online_video",
-      "summary": "主打最新美剧资源，页面无广告。",
-      "summary_short": "最新美剧，无广告",
+      "summary": "主打最新美剧资源，页面无广告（需梯子）。",
+      "summary_short": "最新美剧，无广告（需梯子）",
       "tags": ["在线影视", "美剧", "无广告"],
       "access": {
         "requires_login": false,
@@ -755,7 +755,7 @@
         "status": "caution",
         "last_checked": "2026-07-04",
         "method": "manual",
-        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为最新美剧，无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为最新美剧，无广告（需梯子）；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
       },
       "source": {
         "submitted_by": "maintainer",
@@ -768,8 +768,8 @@
       "name": "奈菲影视",
       "url": "https://www.nfyingshi.com",
       "category": "online_video",
-      "summary": "热门美剧资源，更新较快，无广告。",
-      "summary_short": "热门美剧，更新快无广告",
+      "summary": "热门美剧资源，更新较快，无广告（需梯子）。",
+      "summary_short": "热门美剧，更新快无广告（需梯子）",
       "tags": ["在线影视", "美剧", "无广告"],
       "access": {
         "requires_login": false,
@@ -793,7 +793,7 @@
         "status": "caution",
         "last_checked": "2026-07-04",
         "method": "manual",
-        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为热门美剧，更新快无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为热门美剧，更新快无广告（需梯子）；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
       },
       "source": {
         "submitted_by": "maintainer",

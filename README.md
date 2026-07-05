@@ -66,7 +66,7 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://ddmf.net" target="_blank" rel="noopener noreferrer">蛋蛋魔法</a></td>
-      <td nowrap>国内外热播剧，有福利伦理片</td>
+      <td nowrap>国内外热播剧，有福利伦理片（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:ddmf -->🟡&#8288;访问&#8288;受限<!-- /availability:ddmf --></td>
       <td align="center" nowrap><!-- availability-date:ddmf -->2026&#8209;07&#8209;05<!-- /availability-date:ddmf --></td>
@@ -108,14 +108,14 @@
     </tr>
     <tr>
       <td nowrap><a href="https://www.netflixgc.com" target="_blank" rel="noopener noreferrer">奈飞工厂</a></td>
-      <td nowrap>最新美剧，无广告</td>
+      <td nowrap>最新美剧，无广告（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:netflixgc -->🟡&#8288;访问&#8288;受限<!-- /availability:netflixgc --></td>
       <td align="center" nowrap><!-- availability-date:netflixgc -->2026&#8209;07&#8209;05<!-- /availability-date:netflixgc --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.nfyingshi.com" target="_blank" rel="noopener noreferrer">奈菲影视</a></td>
-      <td nowrap>热门美剧，更新快无广告</td>
+      <td nowrap>热门美剧，更新快无广告（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:nfyingshi -->🟢&#8288;可&#8288;访问<!-- /availability:nfyingshi --></td>
       <td align="center" nowrap><!-- availability-date:nfyingshi -->2026&#8209;07&#8209;05<!-- /availability-date:nfyingshi --></td>
@@ -143,7 +143,7 @@
     </tr>
     <tr>
       <td nowrap><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">白嫖者联盟</a></td>
-      <td nowrap>热门热播剧，无广告速度快</td>
+      <td nowrap>热门热播剧，无广告速度快（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:tdgo -->🟢&#8288;可&#8288;访问<!-- /availability:tdgo --></td>
       <td align="center" nowrap><!-- availability-date:tdgo -->2026&#8209;07&#8209;05<!-- /availability-date:tdgo --></td>
