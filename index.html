@@ -18,12 +18,18 @@
         defaultTheme: 'dark'
       },
       homepage: "README.md",
-      mounted(){
+      afterEach(){
+        // 避免重复拼接板块
+        if(document.querySelector('#custom-append-block')) return
         fetch('./custom-add.md')
         .then(res => res.text())
         .then(mdText => {
           const html = window.$docsify.compiler.compile(mdText)
-          document.querySelector('.content').insertAdjacentHTML('beforeend',`<hr><h2>个人补充站点</h2>${html}`)
+          document.querySelector('.content').insertAdjacentHTML('beforeend',`
+<hr id="custom-append-block">
+<h2>个人补充站点</h2>
+${html}
+`)
         })
         .catch(err => console.error("自定义板块加载失败：", err))
       }
