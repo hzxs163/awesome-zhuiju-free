@@ -6,10 +6,6 @@
   <title>追剧免费资源汇总</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
-  <!-- CSS第一层强制视觉隐藏，不受JS时序影响 -->
-  <style>
-    [data-hide-block] {display:none !important;}
-  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -21,31 +17,7 @@
       themeable: {
         defaultTheme: 'dark'
       },
-      homepage: "README.md",
-      afterEach() {
-        // 多次延时重试，避开DOM未渲染的时序问题
-        const runRemove = ()=>{
-          const content = document.querySelector('.content');
-          if(!content) return;
-          content.querySelectorAll('h2').forEach(h2=>{
-            const txt = h2.textContent.trim();
-            if(["加入追剧社群","怎么快速选择"].includes(txt)){
-              // 打标记走CSS隐藏，同时原生DOM移除
-              let node = h2;
-              while(node){
-                node.setAttribute('data-hide-block','1');
-                const next = node.nextElementSibling;
-                node.remove();
-                node = next;
-              }
-            }
-          })
-        }
-        // 分3档延时适配Docsify不同渲染耗时
-        setTimeout(runRemove, 80);
-        setTimeout(runRemove, 350);
-        setTimeout(runRemove, 900);
-      }
+      homepage: "home.md"
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
