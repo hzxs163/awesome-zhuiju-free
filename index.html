@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 添加防缓存戳，强制CDN拉取新版JS -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
@@ -11,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-    /* CSS仅匹配主页指定标题做隐藏，限定仅主页路由生效，不干涉子页面表格 */
+    /* 主页限定隐藏多余板块 */
     [data-page="README"] .content h2:where(
       :has-text("加入追剧社群"),
       :has-text("怎么快速选择"),
@@ -34,6 +33,11 @@
     ) ~ * {
       display: none !important;
     }
+    /* 核心修复：禁止td单元格继承th表头文本，解决文字串扰 */
+    .content table td::before,
+    .content table td::after{
+      content: unset !important;
+    }
   </style>
 </head>
 <body>
@@ -46,7 +50,6 @@
       themeable: { defaultTheme: 'dark' },
       homepage: "README.md"
     }
-    // 完全删掉所有DOM遍历、HTML改写插件代码，杜绝全局污染子页面表格
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
