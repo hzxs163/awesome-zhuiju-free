@@ -14,10 +14,26 @@
       name: '免费追剧资源',
       repo: '',
       loadSidebar: true,
-      themeable: {
-        defaultTheme: 'dark'
-      },
-      homepage: "home.md"
+      themeable: { defaultTheme: 'dark' },
+      homepage: "README.md",
+      preProcessor(md) {
+        const dropTitles = [
+          "## 加入追剧社群",
+          "## 怎么快速选择",
+          "## 怎么看评分",
+          "## 我们怎么维护",
+          "## 如何参与",
+          "## 项目原则",
+          "## 免责声明",
+          "## Star History"
+        ];
+        dropTitles.forEach(title=>{
+          // 匹配标题、该标题下辖的所有内容，直到下个二级标题结束
+          const reg = new RegExp(`${title}[\\s\\S]*?(?=\\n## |$)`, 'g');
+          md = md.replace(reg, '');
+        })
+        return md;
+      }
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
