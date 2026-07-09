@@ -18,13 +18,22 @@
         defaultTheme: 'dark'
       },
       homepage: "README.md",
-      // Markdown渲染前删掉指定板块，规避CSS选择器兼容问题
-      preProcessor(rawMarkdown) {
-        // 移除「加入追剧社群」整块内容
-        rawMarkdown = rawMarkdown.replace(/## 加入追剧社群[\s\S]*?(?=## 怎么快速选择)/g, "");
-        // 移除「怎么快速选择」以及页面后续所有剩余内容
-        rawMarkdown = rawMarkdown.replace(/## 怎么快速选择[\s\S]*/g, "");
-        return rawMarkdown;
+      afterEach() {
+        const container = document.querySelector('.content');
+        if(!container) return;
+        // 遍历h2标题匹配并移除整块板块
+        container.querySelectorAll('h2').forEach(heading=>{
+          const text = heading.textContent.trim();
+          if(text === "加入追剧社群" || text === "怎么快速选择"){
+            let curNode = heading;
+            // 循环删除标题以及后面所有同级子元素
+            while(curNode){
+              const next = curNode.nextElementSibling;
+              curNode.remove();
+              curNode = next;
+            }
+          }
+        })
       }
     }
   </script>
