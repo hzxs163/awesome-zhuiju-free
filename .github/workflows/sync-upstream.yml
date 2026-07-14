@@ -1,7 +1,7 @@
 name: 自动同步上游原仓库
 on:
   schedule:
-    # UTC 0点=北京时间早上8点，每日执行一次同步
+    # UTC 17点=北京时间凌晨1点，每日执行一次同步
     - cron: '0 17 * * *'
   # 支持网页手动点按钮立刻触发同步
   workflow_dispatch:
@@ -27,6 +27,9 @@ jobs:
           git fetch upstream
           git checkout main
           git merge upstream/main --no-edit
+          # 关键修复：强制保留本地workflows，不接受上游对yml的修改，绕过权限限制
+          git checkout HEAD -- .github/workflows/
+          git add .github/workflows/
 
       - name: 推送合并后的代码到自己仓库main分支
-        run: git push origin main
+        run: git push https://${{ github.token }}@github.com/hzxs163/awesome-zhuiju-free.git HEAD:main
