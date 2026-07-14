@@ -6,22 +6,28 @@
     {
       "id": "no-video",
       "name": "No影视",
-      "url": "https://www.novipnoad.cc/",
+      "url": "https://novipnoad.org/",
       "category": "online_video",
       "summary": "主打海外影视剧资源的在线影视站。",
       "summary_short": "海外影视剧资源聚合站（需梯子）",
-      "tags": ["在线影视", "海外剧", "中文"],
+      "tags": [
+        "在线影视",
+        "海外剧",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -31,9 +37,9 @@
       },
       "verification": {
         "status": "caution",
-        "last_checked": "2026-06-13",
+        "last_checked": "2026-07-10",
         "method": "manual",
-        "notes": "用户推荐资源，主打海外影视剧资源；内容来源、版权状态与站点安全性需要持续观察。"
+        "notes": "根据用户补充将访问地址从 https://www.novipnoad.cc/ 更新为 https://novipnoad.org/；主打海外影视剧资源，内容来源、版权状态与站点安全性需要持续观察。"
       },
       "source": {
         "submitted_by": "maintainer",
@@ -48,18 +54,25 @@
       "category": "online_video",
       "summary": "主打国内海外影视剧资源的在线影视站，访问可能需要代理网络。",
       "summary_short": "国内海外影视剧资源（需梯子）",
-      "tags": ["在线影视", "国内剧", "海外剧", "需梯子"],
+      "tags": [
+        "在线影视",
+        "国内剧",
+        "海外剧",
+        "需梯子"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -86,18 +99,25 @@
       "category": "online_video",
       "summary": "主打国内海外高清影视剧资源的在线影视站。",
       "summary_short": "国内海外高清影视剧资源",
-      "tags": ["在线影视", "高清影视", "国内剧", "海外剧"],
+      "tags": [
+        "在线影视",
+        "高清影视",
+        "国内剧",
+        "海外剧"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -124,18 +144,25 @@
       "category": "online_video",
       "summary": "主打国内海外影视剧资源的在线影视站。",
       "summary_short": "国内海外影视剧资源（需梯子）",
-      "tags": ["在线影视", "国内剧", "海外剧", "中文"],
+      "tags": [
+        "在线影视",
+        "国内剧",
+        "海外剧",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -162,18 +189,24 @@
       "category": "online_video",
       "summary": "海外华人在线影院，访问可能需要代理网络。",
       "summary_short": "海外华人在线影院（需梯子）",
-      "tags": ["在线影视", "海外华人", "需梯子"],
+      "tags": [
+        "在线影视",
+        "海外华人",
+        "需梯子"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -194,62 +227,30 @@
       "featured": true
     },
     {
-      "id": "haina-tv",
-      "name": "海纳TV",
-      "url": "https://www.hainatv.net",
-      "category": "online_video",
-      "summary": "高清蓝光画质，实时更新。",
-      "summary_short": "高清蓝光画质/实时更新",
-      "tags": ["在线影视", "高清影视", "实时更新"],
-      "access": {
-        "requires_login": false,
-        "free_level": "unknown",
-        "regions": ["GLOBAL"]
-      },
-      "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
-      },
-      "risks": {
-        "copyright": "high",
-        "safety": "medium",
-        "privacy": "unknown",
-        "payment": "unknown"
-      },
-      "verification": {
-        "status": "caution",
-        "last_checked": "2026-06-19",
-        "method": "manual",
-        "notes": "根据截图信息收录：推荐指数 4 星，测评备注为高清蓝光画质/实时更新；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
-      },
-      "source": {
-        "submitted_by": "maintainer",
-        "added_at": "2026-06-19"
-      },
-      "featured": true
-    },
-    {
       "id": "tdgo",
       "name": "白嫖者联盟",
       "url": "https://www.tdgo.shop",
       "category": "online_video",
       "summary": "热门热播剧，页面无广告，访问速度快（需梯子）。",
       "summary_short": "热门热播剧，无广告速度快（需梯子）",
-      "tags": ["在线影视", "热播剧", "无广告"],
+      "tags": [
+        "在线影视",
+        "热播剧",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -276,18 +277,24 @@
       "category": "online_video",
       "summary": "国内外热播剧，有福利伦理片（需梯子）。",
       "summary_short": "国内外热播剧，有福利伦理片（需梯子）",
-      "tags": ["在线影视", "热播剧", "中文"],
+      "tags": [
+        "在线影视",
+        "热播剧",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -314,18 +321,24 @@
       "category": "online_video",
       "summary": "网友称最夯动漫在线站。",
       "summary_short": "网友称最夯动漫在线站",
-      "tags": ["在线影视", "动漫", "在线看"],
+      "tags": [
+        "在线影视",
+        "动漫",
+        "在线看"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -352,18 +365,24 @@
       "category": "online_video",
       "summary": "国内外热播剧，纯净无广告。",
       "summary_short": "国内外热播剧，纯净无广告",
-      "tags": ["在线影视", "热播剧", "无广告"],
+      "tags": [
+        "在线影视",
+        "热播剧",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -390,18 +409,24 @@
       "category": "online_video",
       "summary": "最新热门电影/电视剧。",
       "summary_short": "最新热门电影/电视剧（需梯子）",
-      "tags": ["在线影视", "电影", "电视剧"],
+      "tags": [
+        "在线影视",
+        "电影",
+        "电视剧"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -428,18 +453,24 @@
       "category": "online_video",
       "summary": "全网 VIP 资源。",
       "summary_short": "全网VIP资源（需梯子）",
-      "tags": ["在线影视", "VIP资源", "中文"],
+      "tags": [
+        "在线影视",
+        "VIP资源",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -466,18 +497,24 @@
       "category": "online_video",
       "summary": "看全网影视剧。",
       "summary_short": "看全网影视剧（需梯子）",
-      "tags": ["在线影视", "影视剧", "中文"],
+      "tags": [
+        "在线影视",
+        "影视剧",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -504,18 +541,24 @@
       "category": "online_video",
       "summary": "面向海外华人的影视站，访问可能需要代理网络。",
       "summary_short": "面向海外华人的影视站（需梯子）",
-      "tags": ["在线影视", "海外华人", "需梯子"],
+      "tags": [
+        "在线影视",
+        "海外华人",
+        "需梯子"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -542,18 +585,24 @@
       "category": "online_video",
       "summary": "高清、秒播不卡顿，有广告。",
       "summary_short": "高清、秒播不卡顿，有广告",
-      "tags": ["在线影视", "高清影视", "有广告"],
+      "tags": [
+        "在线影视",
+        "高清影视",
+        "有广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 3.0,
-        "speed": 3.0,
-        "clean": 3.0,
-        "stable": 3.0,
-        "ease": 3.0
+        "more": 3,
+        "speed": 3,
+        "clean": 3,
+        "stable": 3,
+        "ease": 3
       },
       "risks": {
         "copyright": "high",
@@ -580,18 +629,24 @@
       "category": "online_video",
       "summary": "海外影视的老牌网站，发布页 www.libvio.app。",
       "summary_short": "海外影视的老牌网站，发布页www.libvio.app",
-      "tags": ["在线影视", "海外影视", "发布页"],
+      "tags": [
+        "在线影视",
+        "海外影视",
+        "发布页"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -618,18 +673,24 @@
       "category": "online_video",
       "summary": "蓝光超清精品影视，发布页 https://auete.pro。",
       "summary_short": "蓝光超清精品影视，发布页auete.pro",
-      "tags": ["在线影视", "高清影视", "发布页"],
+      "tags": [
+        "在线影视",
+        "高清影视",
+        "发布页"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -656,18 +717,24 @@
       "category": "online_video",
       "summary": "高清电影在线观看。",
       "summary_short": "高清电影在线观看",
-      "tags": ["在线影视", "电影", "高清影视"],
+      "tags": [
+        "在线影视",
+        "电影",
+        "高清影视"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -694,18 +761,24 @@
       "category": "online_video",
       "summary": "综合影视资源较多，页面无广告。",
       "summary_short": "综合影视/资源多/无广告",
-      "tags": ["在线影视", "综合影视", "无广告"],
+      "tags": [
+        "在线影视",
+        "综合影视",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -732,18 +805,24 @@
       "category": "online_video",
       "summary": "主打最新美剧资源，页面无广告（需梯子）。",
       "summary_short": "最新美剧，无广告（需梯子）",
-      "tags": ["在线影视", "美剧", "无广告"],
+      "tags": [
+        "在线影视",
+        "美剧",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -770,18 +849,24 @@
       "category": "online_video",
       "summary": "热门美剧资源，更新较快，无广告（需梯子）。",
       "summary_short": "热门美剧，更新快无广告（需梯子）",
-      "tags": ["在线影视", "美剧", "无广告"],
+      "tags": [
+        "在线影视",
+        "美剧",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -808,18 +893,24 @@
       "category": "online_video",
       "summary": "热门国剧资源，更新较快，无广告。",
       "summary_short": "热门国剧，更新快，无广告",
-      "tags": ["在线影视", "国剧", "无广告"],
+      "tags": [
+        "在线影视",
+        "国剧",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -846,18 +937,24 @@
       "category": "online_video",
       "summary": "热门在线影视，速度快，纯净无广告。",
       "summary_short": "热门在线影视，速度快/纯净/无广告",
-      "tags": ["在线影视", "热门影视", "无广告"],
+      "tags": [
+        "在线影视",
+        "热门影视",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -884,18 +981,24 @@
       "category": "online_video",
       "summary": "页面无广告，体验较纯净。",
       "summary_short": "页面无广告，纯净",
-      "tags": ["在线影视", "纯净", "无广告"],
+      "tags": [
+        "在线影视",
+        "纯净",
+        "无广告"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -916,24 +1019,287 @@
       "featured": true
     },
     {
+      "id": "bubu-zhuiju",
+      "name": "布布追剧",
+      "url": "https://bubuzhuiju.com",
+      "category": "online_video",
+      "summary": "速度快，有广告能接受。",
+      "summary_short": "速度快，有广告能接受",
+      "tags": [
+        "在线影视",
+        "追剧",
+        "有广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，简介为速度快，有广告能接受；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "yingmao-cangku",
+      "name": "影猫仓库",
+      "url": "https://www.ymck.pro",
+      "category": "online_video",
+      "summary": "热门影视剧，有广告能接受。",
+      "summary_short": "热门影视剧，有广告能接受",
+      "tags": [
+        "在线影视",
+        "热门影视",
+        "有广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，简介为热门影视剧，有广告能接受；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "animeko-app",
+      "name": "Animeko",
+      "url": "https://animeko.org/downloads/",
+      "category": "video_app",
+      "summary": "一站式在线弹幕追番平台。",
+      "summary_short": "一站式在线弹幕追番平台",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "tags": [
+        "影视APP",
+        "动漫",
+        "追番",
+        "弹幕",
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-10",
+        "method": "manual",
+        "notes": "根据用户补充收录 Animeko 下载页；简介为一站式在线弹幕追番平台，支持 Android、Windows、macOS、Linux 和 iOS。应用安装来源、内容来源、版权状态与隐私安全需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-10"
+      },
+      "featured": true
+    },
+    {
+      "id": "kazumi",
+      "name": "Kazumi",
+      "url": "https://kazumi.app/download",
+      "category": "video_app",
+      "summary": "免费无广告/在线观看番剧。",
+      "summary_short": "免费无广告/在线观看番剧",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "HarmonyOS NEXT"
+      ],
+      "tags": [
+        "影视APP",
+        "动漫",
+        "番剧",
+        "无广告",
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "HarmonyOS NEXT"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-11",
+        "method": "manual",
+        "notes": "根据用户补充收录 Kazumi 下载页；简介为免费无广告/在线观看番剧，支持 Android、iOS、Windows、macOS 和 HarmonyOS NEXT。应用安装来源、内容来源、版权状态与隐私安全需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-11"
+      },
+      "featured": true
+    },
+    {
+      "id": "selenetv-app",
+      "name": "SeleneTV",
+      "url": "https://b.zhuiju.me/archives/4/",
+      "category": "video_app",
+      "summary": "跨平台 MoonTV 客户端。",
+      "summary_short": "跨平台 MoonTV 客户端",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows"
+      ],
+      "tags": [
+        "影视APP",
+        "MoonTV",
+        "Helios",
+        "客户端",
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录 SeleneTV 下载说明页；简介为跨平台 MoonTV 客户端，支持 Android、iOS、macOS 和 Windows。应用安装来源、内容来源、版权状态与隐私安全需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
       "id": "zimuku",
       "name": "字幕库",
       "url": "https://zimuku.org",
       "category": "subtitles",
       "summary": "字幕下载。",
       "summary_short": "字幕下载",
-      "tags": ["字幕", "字幕下载", "中文"],
+      "tags": [
+        "字幕",
+        "字幕下载",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "medium",
@@ -960,18 +1326,24 @@
       "category": "subtitles",
       "summary": "字幕下载。",
       "summary_short": "字幕下载",
-      "tags": ["字幕", "字幕下载", "中文"],
+      "tags": [
+        "字幕",
+        "字幕下载",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "medium",
@@ -998,18 +1370,24 @@
       "category": "subtitles",
       "summary": "分享下载字幕平台。",
       "summary_short": "分享下载字幕平台",
-      "tags": ["字幕", "字幕下载", "分享平台"],
+      "tags": [
+        "字幕",
+        "字幕下载",
+        "分享平台"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "medium",
@@ -1036,16 +1414,22 @@
       "category": "player",
       "summary": "开源、跨平台的家庭媒体中心软件。",
       "summary_short": "开源、跨平台家庭媒体中心",
-      "tags": ["开源", "播放器", "跨平台"],
+      "tags": [
+        "开源",
+        "播放器",
+        "跨平台"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
         "more": 4.5,
-        "speed": 4.0,
-        "clean": 5.0,
+        "speed": 4,
+        "clean": 5,
         "stable": 4.8,
         "ease": 3.8
       },
@@ -1074,18 +1458,24 @@
       "category": "subscription",
       "summary": "社区维护的公开 IPTV 频道集合与相关数据。",
       "summary_short": "社区维护的公开 IPTV 频道集合",
-      "tags": ["IPTV", "开源", "订阅源"],
+      "tags": [
+        "IPTV",
+        "开源",
+        "订阅源"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
         "more": 4.5,
         "speed": 3.5,
-        "clean": 5.0,
-        "stable": 4.0,
-        "ease": 3.0
+        "clean": 5,
+        "stable": 4,
+        "ease": 3
       },
       "risks": {
         "copyright": "medium",
@@ -1113,18 +1503,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1152,18 +1548,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1191,18 +1593,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1224,63 +1632,30 @@
       "featured_order": 3
     },
     {
-      "id": "jun-lao",
-      "name": "俊佬",
-      "url": "http://home.jundie.top:81/top98.json",
-      "category": "tvbox_config",
-      "summary": "影视仓配置地址。",
-      "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
-      "access": {
-        "requires_login": false,
-        "free_level": "unknown",
-        "regions": ["GLOBAL"]
-      },
-      "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
-      },
-      "risks": {
-        "copyright": "high",
-        "safety": "medium",
-        "privacy": "unknown",
-        "payment": "unknown"
-      },
-      "verification": {
-        "status": "caution",
-        "last_checked": "2026-07-04",
-        "method": "manual",
-        "notes": "用户提交的影视仓配置地址，按 4 星收录；配置内容、接口稳定性、版权状态与安全风险需要用户自行判断，并由后续自动检测刷新可访问状态。"
-      },
-      "source": {
-        "submitted_by": "maintainer",
-        "added_at": "2026-07-04"
-      },
-      "featured": true,
-      "featured_order": 4
-    },
-    {
       "id": "xiao-ma",
       "name": "小马",
       "url": "https://szyyds.cn/tv/x.json",
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1302,6 +1677,51 @@
       "featured_order": 5
     },
     {
+      "id": "xiao-sa",
+      "name": "潇洒",
+      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
+      "category": "tvbox_config",
+      "summary": "影视仓配置地址。",
+      "summary_short": "影视仓配置地址",
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "用户提交的影视仓配置地址，按 5 星收录；配置内容、接口稳定性、版权状态与安全风险需要用户自行判断，并由后续自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true,
+      "featured_order": 4
+    },
+    {
       "id": "mo-yu-er",
       "name": "摸鱼儿",
       "url": "http://摸鱼儿.cc",
@@ -1309,18 +1729,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1349,18 +1775,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1388,18 +1820,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1427,18 +1865,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1466,18 +1910,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1505,18 +1955,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1538,24 +1994,75 @@
       "featured_order": 11
     },
     {
+      "id": "wu-ming",
+      "name": "无名",
+      "url": "https://6800.kstore.vip/fish.json",
+      "category": "tvbox_config",
+      "summary": "影视仓配置地址。",
+      "summary_short": "影视仓配置地址",
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "用户提交的影视仓配置地址，按 4 星收录；配置内容、接口稳定性、版权状态与安全风险需要用户自行判断，并由后续自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true,
+      "featured_order": 16
+    },
+    {
       "id": "xiao-he-zi-multi",
       "name": "小盒子多仓",
       "url": "http://xhztv.top/dc",
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1583,18 +2090,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1622,18 +2135,24 @@
       "category": "tvbox_config",
       "summary": "影视仓配置地址。",
       "summary_short": "影视仓配置地址",
-      "tags": ["影视仓","配置地址","TVBox"],
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1662,18 +2181,24 @@
       "category": "tvbox_config",
       "summary": "专业 TV 工具箱，免费好用。",
       "summary_short": "专业 TV 工具箱，免费好用",
-      "tags": ["影视仓","TV工具箱","收集页"],
+      "tags": [
+        "影视仓",
+        "TV工具箱",
+        "收集页"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 4.0,
-        "speed": 4.0,
-        "clean": 4.0,
-        "stable": 4.0,
-        "ease": 4.0
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
       },
       "risks": {
         "copyright": "high",
@@ -1701,18 +2226,25 @@
       "category": "magnet_search",
       "summary": "全部高清无广告。",
       "summary_short": "全部高清无广告",
-      "tags": ["磁力", "BT", "美剧", "高清"],
+      "tags": [
+        "磁力",
+        "BT",
+        "美剧",
+        "高清"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1739,18 +2271,24 @@
       "category": "magnet_search",
       "summary": "无删减、无广告。",
       "summary_short": "无删减、无广告",
-      "tags": ["磁力", "BT", "高清"],
+      "tags": [
+        "磁力",
+        "BT",
+        "高清"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1777,18 +2315,24 @@
       "category": "magnet_search",
       "summary": "干净好用的磁力资源搜索。",
       "summary_short": "干净好用的磁力资源搜索",
-      "tags": ["磁力", "BT", "资源搜索"],
+      "tags": [
+        "磁力",
+        "BT",
+        "资源搜索"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1815,18 +2359,25 @@
       "category": "magnet_search",
       "summary": "4k高清电影BT下载。",
       "summary_short": "4k高清电影BT下载",
-      "tags": ["磁力", "BT", "4K", "电影"],
+      "tags": [
+        "磁力",
+        "BT",
+        "4K",
+        "电影"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1847,24 +2398,255 @@
       "featured": true
     },
     {
+      "id": "4k-yuanpan",
+      "name": "4K原盘",
+      "url": "https://pomo.mom",
+      "category": "magnet_search",
+      "summary": "4K原盘免费下载。",
+      "summary_short": "4K原盘免费下载",
+      "tags": [
+        "磁力",
+        "BT",
+        "4K",
+        "原盘"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 5 星，测评备注为4K原盘免费下载；提交状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "dianyinggang",
+      "name": "电影港网",
+      "url": "https://www.dyg22.com",
+      "category": "magnet_search",
+      "summary": "无水印4K高清BT种子资源。",
+      "summary_short": "无水印4K高清BT种子资源",
+      "tags": [
+        "磁力",
+        "BT",
+        "4K",
+        "电影"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，测评备注为无水印4K高清BT种子资源；提交状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "btshijiewang",
+      "name": "BT世界网",
+      "url": "https://www.btsj6.com",
+      "category": "magnet_search",
+      "summary": "高清电影美剧BT种子迅雷下载。",
+      "summary_short": "高清电影美剧BT种子迅雷下载",
+      "tags": [
+        "磁力",
+        "BT",
+        "电影",
+        "美剧"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 5 星，测评备注为高清电影美剧BT种子迅雷下载；提交状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "gaoqing-mp4",
+      "name": "高清MP4",
+      "url": "https://www.mp4ba.vip",
+      "category": "magnet_search",
+      "summary": "免费1080电影4K电影。",
+      "summary_short": "免费1080电影4K电影",
+      "tags": [
+        "磁力",
+        "BT",
+        "1080P",
+        "4K"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，测评备注为免费1080电影4K电影；提交状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "gaoqingzu",
+      "name": "高清族",
+      "url": "https://hdzu.org",
+      "category": "magnet_search",
+      "summary": "1080P电影下载,4K电影下载。",
+      "summary_short": "1080P电影下载,4K电影下载",
+      "tags": [
+        "磁力",
+        "BT",
+        "1080P",
+        "4K"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 3,
+        "speed": 3,
+        "clean": 3,
+        "stable": 3,
+        "ease": 3
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 3 星，测评备注为1080P电影下载,4K电影下载；提交状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
       "id": "kuake-so-1",
       "name": "PanSou",
       "url": "https://pansou.de",
       "category": "cloud_search",
       "summary": "纯净的夸克网盘资源搜索引擎",
       "summary_short": "纯净的夸克网盘资源搜索引擎",
-      "tags": ["网盘搜索", "夸克网盘", "中文"],
+      "tags": [
+        "网盘搜索",
+        "夸克网盘",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "medium",
@@ -1892,18 +2674,25 @@
       "category": "cloud_search",
       "summary": "支持夸克网盘与百度网盘资源搜索的网盘搜索站。",
       "summary_short": "夸克百度网盘搜索",
-      "tags": ["网盘搜索", "夸克网盘", "百度网盘", "中文"],
+      "tags": [
+        "网盘搜索",
+        "夸克网盘",
+        "百度网盘",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1931,18 +2720,24 @@
       "category": "cloud_search",
       "summary": "面向影视网盘资源的搜索站。",
       "summary_short": "国内外热门影视网盘资源搜索",
-      "tags": ["网盘搜索", "影视资源", "中文"],
+      "tags": [
+        "网盘搜索",
+        "影视资源",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -1970,18 +2765,24 @@
       "category": "cloud_search",
       "summary": "支持多种网盘资源搜索的网盘搜索站。",
       "summary_short": "支持9种网盘的综合搜索站",
-      "tags": ["网盘搜索", "多网盘", "中文"],
+      "tags": [
+        "网盘搜索",
+        "多网盘",
+        "中文"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -2009,18 +2810,24 @@
       "category": "open_source",
       "summary": "MoonTVPlus 是基于 MoonTV v100 二次开发的增强版影视聚合播放器。",
       "summary_short": "MoonTV 增强版影视聚合播放器",
-      "tags": ["开源项目", "影视聚合", "播放器"],
+      "tags": [
+        "开源项目",
+        "影视聚合",
+        "播放器"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2053,18 +2860,24 @@
       "category": "open_source",
       "summary": "zyfun 是跨平台桌面端视频资源播放器。",
       "summary_short": "跨平台桌面端视频资源播放器",
-      "tags": ["开源项目", "视频播放器", "跨平台"],
+      "tags": [
+        "开源项目",
+        "视频播放器",
+        "跨平台"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2097,18 +2910,24 @@
       "category": "open_source",
       "summary": "iptv-api 是 IPTV 直播源自动更新平台，支持采集、筛选、测速和生成。",
       "summary_short": "IPTV 直播源自动采集筛选更新平台",
-      "tags": ["开源项目", "IPTV", "直播源"],
+      "tags": [
+        "开源项目",
+        "IPTV",
+        "直播源"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2141,18 +2960,24 @@
       "category": "open_source",
       "summary": "iptv-org/iptv 收集全球公开可用的 IPTV 频道。",
       "summary_short": "全球公开 IPTV 频道集合",
-      "tags": ["开源项目", "IPTV", "直播源"],
+      "tags": [
+        "开源项目",
+        "IPTV",
+        "直播源"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2174,7 +2999,7 @@
       "featured_order": 4,
       "github": {
         "full_name": "iptv-org/iptv",
-        "stars": 132647,
+        "stars": 132645,
         "pushed_at": "2026-07-13T01:29:27Z"
       }
     },
@@ -2185,18 +3010,24 @@
       "category": "open_source",
       "summary": "PanSou 是高性能网盘资源搜索 API 服务，支持 TG 频道和插件搜索。",
       "summary_short": "高性能网盘资源搜索 API 服务",
-      "tags": ["开源项目", "网盘搜索", "API"],
+      "tags": [
+        "开源项目",
+        "网盘搜索",
+        "API"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2218,7 +3049,7 @@
       "featured_order": 5,
       "github": {
         "full_name": "fish2018/pansou",
-        "stars": 13835,
+        "stars": 13834,
         "pushed_at": "2026-06-14T14:06:26Z"
       }
     },
@@ -2229,18 +3060,24 @@
       "category": "open_source",
       "summary": "CloudSaver 是基于 Vue 3 与 Express 的网盘资源搜索与转存工具。",
       "summary_short": "网盘资源搜索与转存工具",
-      "tags": ["开源项目", "网盘搜索", "转存"],
+      "tags": [
+        "开源项目",
+        "网盘搜索",
+        "转存"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2273,18 +3110,24 @@
       "category": "open_source",
       "summary": "quark-auto-save 支持夸克网盘签到、自动转存、命名整理和推送提醒。",
       "summary_short": "夸克网盘自动签到转存整理工具",
-      "tags": ["开源项目", "夸克网盘", "自动转存"],
+      "tags": [
+        "开源项目",
+        "夸克网盘",
+        "自动转存"
+      ],
       "access": {
         "requires_login": false,
         "free_level": "free",
-        "regions": ["GLOBAL"]
+        "regions": [
+          "GLOBAL"
+        ]
       },
       "scores": {
-        "more": 5.0,
-        "speed": 5.0,
-        "clean": 5.0,
-        "stable": 5.0,
-        "ease": 5.0
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "unknown",
@@ -2309,6 +3152,200 @@
         "stars": 2920,
         "pushed_at": "2026-07-09T11:44:49Z"
       }
+    },
+    {
+      "id": "animeko",
+      "name": "Animeko",
+      "url": "https://github.com/open-ani/animeko",
+      "category": "open_source",
+      "summary": "Animeko 是集找番、追番、看番的一站式弹幕追番平台。",
+      "summary_short": "一站式弹幕追番平台",
+      "tags": [
+        "开源项目",
+        "追番",
+        "弹幕"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-07-10",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-10"
+      },
+      "featured": true,
+      "featured_order": 8,
+      "github": {
+        "full_name": "open-ani/animeko",
+        "stars": 18840,
+        "pushed_at": "2026-07-13T01:31:37Z"
+      }
+    },
+    {
+      "id": "predidit-kazumi",
+      "name": "Kazumi",
+      "url": "https://github.com/Predidit/Kazumi",
+      "category": "open_source",
+      "summary": "Kazumi 是免费无广告的番剧采集与在线观看项目。",
+      "summary_short": "免费无广告的番剧采集与在线观看",
+      "tags": [
+        "开源项目",
+        "番剧",
+        "在线观看",
+        "无广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-07-11",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-11"
+      },
+      "featured": true,
+      "featured_order": 9,
+      "github": {
+        "full_name": "Predidit/Kazumi",
+        "stars": 27586,
+        "pushed_at": "2026-07-13T02:08:22Z"
+      }
+    },
+    {
+      "id": "selenetv",
+      "name": "SeleneTV",
+      "url": "https://github.com/MoonTechLab/Selene",
+      "category": "open_source",
+      "summary": "SeleneTV 是以 MoonTV v100 版本 / Helios 为后端的客户端。",
+      "summary_short": "MoonTV v100/Helios 后端客户端",
+      "tags": [
+        "开源项目",
+        "MoonTV",
+        "Helios",
+        "客户端"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数与最近更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true,
+      "featured_order": 10,
+      "github": {
+        "full_name": "MoonTechLab/Selene",
+        "stars": 2346,
+        "pushed_at": "2026-05-25T10:26:26Z"
+      }
+    },
+    {
+      "id": "tv-xn-yhqu5zs87a-top-3",
+      "name": "FongMi 影视",
+      "url": "https://tv.xn--yhqu5zs87a.top/",
+      "category": "player",
+      "summary": "tvbox二开/带视频源，手机端/平板端已测试",
+      "summary_short": "tvbox二开/带视频源，手机端/平板端已测试",
+      "tags": [
+        "TVBox"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-10",
+        "method": "manual",
+        "notes": "维护者 @laoma2053 已通过 ok 确认收录。 测试信息：2026-07-10 大陆。 提交者风险说明：无广告"
+      },
+      "source": {
+        "submitted_by": "@LFNHHHHH",
+        "added_at": "2026-07-10"
+      },
+      "featured": true
     }
   ]
 }
